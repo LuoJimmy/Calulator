@@ -1,0 +1,8 @@
+table{height: 350px; width: 270px;border: solid 1px #555555;padding: 40px 0;}
+table input[type=text] {height: 90px; width: 390px; font-size: 40px;}
+/*table input[type=button] {height: 90px; width: 350px; font-size: 50px;}*/
+table input[type=button] {height: 70px; width: 90px; font-size: 30px;}
+table tr {}
+table tr td{}
+table tr td span{font-size: 14px;color: #555555;width: 390px;text-align:right;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;position: absolute;padding: 10px 10px 0 0;box-sizing: border-box;}
+

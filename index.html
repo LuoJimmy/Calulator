@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Calulator</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/index.js"></script> 
+	</head> 
+	<body> 
+	<!--定义按键表格,每个按键对应一个事件触发--> 
+		<table align="center" cellspacing="10px"> 
+			<tr> 
+				<td colspan="4"> 
+					<span class="show-all-str"></span>
+					<input type="text" id="nummessege" /> 
+				</td> 
+			</tr> 
+			<tr> 
+				<td> 
+					<input type="button" value="1" id="1" onclick="onclicknum(1)"/> 
+				</td> 
+				<td> 
+					<input type="button" value="2" id="2" onclick="onclicknum(2)" />
+				</td> 
+				<td> 
+					<input type="button" value="3" id="3" onclick="onclicknum(3)"/>
+				</td> 
+				<td> 
+					<input type="button" value="+" id="add" onclick="onclicknum('+')"/>
+				</td> 
+			</tr> 
+			<tr> 
+				<td> 
+					<input type="button" value="4" id="4" onclick="onclicknum(4)"/> 
+				</td> 
+				<td> 
+					<input type="button" value="5" id="5" onclick="onclicknum(5)"/> 
+				</td> 
+				<td> 
+					<input type="button" value="6" id="6" onclick="onclicknum(6)"/> 
+				</td> 
+				<td> 
+					<input type="button" value="-" id="sub" onclick="onclicknum('-')"/> 
+				</td> 
+			</tr> 
+			<tr> 
+				<td> 
+					<input type="button" value="7" id="7" onclick="onclicknum(7)"/> 
+				</td> 
+				<td> 
+					<input type="button" value="8" id="8" onclick="onclicknum(8)"/> 
+				</td> 
+				<td> 
+					<input type="button" value="9" id="9" onclick="onclicknum(9)"/>
+				</td> 
+				<td> 
+					<input type="button" value="*" id="mul" onclick="onclicknum('*')" /> 
+				</td> 
+			</tr> 
+			<tr> 
+				<td> 
+					<input type="button" value="0" id="0" onclick="onclicknum(0)" /> 
+				</td> 
+				<td > 
+					<input type="button" value="Clear" id="clear" onclick="onclickclear()" /> 
+				</td> 
+				<td> 
+					<input type="button" value="=" id="result" onclick="onclickresult()" /> 
+				</td> 
+				<td> 
+					<input type="button" value="/" id="division" onclick="onclicknum('/')" /> 
+				</td> 
+			</tr> 
+		</table> 
+	</body> 
+</html>
